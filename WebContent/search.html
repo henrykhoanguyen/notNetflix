@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Fabflix Application - Search</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="icon" href="images/letterF.png">
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Fabflix  <span>Application</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<!--<li class="current"><a href="index.html">Welcome</a></li>-->
+						<li class="submenu">
+							<a href="#">Menu</a>
+							<ul>
+								<li><a href="cart.html">Your Cart</a></li>
+								<li><a href="browse.html">Browse</a></li>
+								<li><a href="index.html">Main</a></li>
+							</ul>
+						</li>
+						<li><a href="cart.html" class="icon fa-shopping-cart button special"></a></li>
+						<!--<li><a href="#" class="button special">Sign Up</a></li>-->
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon fa-search"></span>
+					</header>
+					<div id="search_error_message"></div>
+					<!-- Three -->
+						<section class="wrapper style3 container special">
+
+							<header class="major">
+								<h2><strong>Search</strong></h2>
+							</header>
+
+								<form id="search_form" method="post" action="#" align="center">
+									<label><b>Title</b></label>
+									<input type="text" placeholder="Enter Title of Movie" name="title">
+									<br>
+									<label><b>Released Year</b></label>
+									<input type="text" placeholder="Enter Released Year" name="year">
+									<br>
+									<label><b>Director</b></label>
+									<input type="text" placeholder="Enter Director's Name" name="director">
+									<br>
+									<label><b>Star's Name</b></label>
+									<input type="text" placeholder="Enter Star's Name" name="star">
+									<br>
+									<input type="submit" value="Search" class="button special">
+								</form>
+
+						</section>
+
+				</article>
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<header>
+						<h2>Ready to <strong>Checkout</strong>?</h2>
+						<p>By clicking on the button below, you will be redirected to your cart. <br>So get your <strong>Credit Card</strong> ready!</p>
+					</header>
+					<footer>
+						<ul class="buttons">
+							<li><a href="cart.html" class="button special">Take My Money</a></li>
+							<!--<li><a href="#" class="button">LOL Wut</a></li>-->
+						</ul>
+					</footer>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://github.com/UCI-Chenli-teaching/cs122b-spring18-team-134" class="icon circle fa-github"><span class="label">Github</span></a></li>
+						<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Khoa Nguyen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<!-- include jQuery-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<!-- include our own JS file -->
+			<script src="search.js"></script>
+
+	</body>
+</html>

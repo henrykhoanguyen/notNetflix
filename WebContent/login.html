@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Login to Fabflix</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="icon" href="images/letterF.png">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+	<body class="index">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1 id="logo"><a href="index.html">Fabflix  <span>Application</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<!-- <li><a href="#" class="icon fa-shopping-cart"></a></li> -->
+							<li><a href="#main" class="button special">Log In</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+							<h2>FABFLIX</h2>
+						</header>
+						<p>This is <strong>Fabflix</strong>, the best movies
+						<br />
+						distribution website.</p>
+						<footer>
+							<ul class="buttons vertical">
+								<li><a href="#main" class="button fit scrolly">Let's Get Started!</a></li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon fa-sign-in"></span>
+					</header>
+					<div id="login_error_message"></div>
+
+					<!-- Three -->
+						<section class="wrapper style3 container special">
+
+							<header class="major">
+								<h2><strong>Log In</strong></h2>
+							</header>
+
+								<form id="login_form" method="post" action="api/login" align="center">
+									<label><b>Username</b></label>
+									<input type="text" placeholder="Enter Your Email" name="username">
+									<br>
+									<label><b>Password</b></label>
+									<input type="password" placeholder="Enter Your Password" name="password">
+									<br>
+									<div align="center" class="g-recaptcha" data-sitekey="6LepsFcUAAAAAEbI2eZYjfQw5xXP2-LUDZHe7dt5"></div>
+									<br>
+									<input type="submit" value="Login" class="button special">
+								</form>
+						</section>
+
+				</article>
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<header>
+						<h2>Welcome to <strong>Fabflix</strong>!</h2>
+						<p>We have a variety of shows and movies for you to choose from.</p>
+					</header>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#main" class="button special">Login to Continue</a></li>
+						</ul>
+					</footer>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://github.com/UCI-Chenli-teaching/cs122b-spring18-team-134" class="icon circle fa-github"><span class="label">Github</span></a></li>
+						<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Khoa Nguyen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<!-- include jQuery-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<!-- include our own JS file -->
+			<script src="login.js"></script>
+
+	</body>
+</html>
